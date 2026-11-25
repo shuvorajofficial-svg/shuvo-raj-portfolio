@@ -4,3 +4,149 @@
 @media(max-width:950px){.nav{gap:13px}.nav a{font-size:9px}.services-band{grid-template-columns:repeat(3,1fr)}.services-intro{grid-column:span 3}.tools-panel{grid-column:span 3;border-left:0;border-top:1px solid var(--line);padding:15px 0 0}.tool-grid{grid-template-columns:repeat(6,1fr)}}
 @media(max-width:680px){.site-header{height:70px;padding:0 19px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:69px;left:0;right:0;background:#170e22;padding:18px 22px;flex-direction:column;align-items:stretch;border-bottom:1px solid var(--line)}.nav.open{display:flex}.nav a{font-size:12px;padding:6px}.home-hero,.section-shell{padding-left:20px;padding-right:20px}.home-hero{grid-template-columns:1fr;min-height:0}.hero-copy{padding-top:38px}.hero-copy h1{font-size:40px}.hero-visual{height:390px}.portrait-frame{width:255px;height:345px}.hero-halo{width:300px;height:300px}.hero-ring{width:330px;height:330px}.ring-b{width:390px;height:260px}.card-purpose{right:0;top:40px}.card-experience{left:0;bottom:30px}.card-focus{right:0;bottom:18px}.featured-grid,.principle-cards,.cards.two,.cards.three{grid-template-columns:1fr}.feature-image{height:190px}.section-head{align-items:start;gap:15px;flex-direction:column}.services-band{grid-template-columns:1fr 1fr}.services-intro{grid-column:span 2}.service-mini{border-left:0;border-top:1px solid var(--line);padding-top:15px}.tools-panel{grid-column:span 2}.tool-grid{grid-template-columns:repeat(3,1fr)}.process-track{grid-template-columns:1fr;gap:8px}.process-track:before{left:28px;right:auto;top:20px;bottom:20px;width:1px;height:auto}.process-track article{display:grid;grid-template-columns:58px 1fr;column-gap:14px;align-items:center}.process-icon{grid-row:span 2;margin:0}.process-track p{max-width:none;margin:2px 0 12px}.contact-panel{grid-template-columns:1fr}.contact-art{height:160px}.footer{padding:25px 20px;flex-wrap:wrap}.footer-links{order:3;width:100%;justify-content:space-between}.footer p{width:100%;order:4}.page-hero{padding:65px 20px 30px}.section{padding:35px 20px}.contact-grid{grid-template-columns:1fr}.contact-row{flex-direction:column;gap:4px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+
+
+
+/* =================================
+   GLOBAL TYPOGRAPHY SIZE UPDATE
+   Shuvo Raj Portfolio
+================================= */
+
+body {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Navigation */
+.nav a {
+    font-size: 12px;
+}
+
+/* Hero section */
+.eyebrow {
+    font-size: 11px;
+}
+
+.hero-copy h1 {
+    font-size: clamp(40px, 4.5vw, 62px);
+}
+
+.hero-description {
+    font-size: 16px;
+}
+
+.btn {
+    font-size: 12px;
+}
+
+.availability b,
+.availability small {
+    font-size: 11px;
+}
+
+/* Section headings */
+.section-head h2 {
+    font-size: 30px;
+}
+
+.page-hero h1 {
+    font-size: clamp(42px, 6vw, 70px);
+}
+
+.page-hero .lead {
+    font-size: 17px;
+}
+
+/* Project cards */
+.feature-info h3 {
+    font-size: 14px;
+}
+
+.feature-info p {
+    font-size: 12px;
+}
+
+.tags span {
+    font-size: 9px;
+}
+
+/* Services and tools */
+.service-mini h3 {
+    font-size: 11px;
+}
+
+.service-mini p {
+    font-size: 12px;
+}
+
+.tool-grid span {
+    font-size: 12px;
+}
+
+/* Process */
+.process-track b {
+    font-size: 10px;
+}
+
+.process-track p {
+    font-size: 11px;
+}
+
+/* Personal principles */
+.principle-cards h3 {
+    font-size: 15px;
+}
+
+.principle-cards p {
+    font-size: 13px;
+}
+
+/* Contact and footer */
+.contact-copy p:not(.eyebrow) {
+    font-size: 12px;
+}
+
+.contact-row {
+    font-size: 14px;
+}
+
+.footer {
+    font-size: 11px;
+}
+
+.text-link {
+    font-size: 11px;
+}
+
+/* Mobile readability */
+@media (max-width: 680px) {
+    .nav a {
+        font-size: 14px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .section-head h2 {
+        font-size: 27px;
+    }
+
+    .feature-info h3 {
+        font-size: 15px;
+    }
+
+    .feature-info p {
+        font-size: 13px;
+    }
+
+    .service-mini p {
+        font-size: 12px;
+    }
+
+    .page-hero .lead {
+        font-size: 16px;
+    }
+}
+
