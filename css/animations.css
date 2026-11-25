@@ -1,0 +1,8 @@
+
+@media(prefers-reduced-motion:no-preference){
+.hero-ring.ring-a{animation:ringRotate 28s linear infinite}.hero-ring.ring-b{animation:ringRotate 35s linear infinite reverse}
+.hero-halo{animation:haloPulse 5s ease-in-out infinite alternate}
+.portrait-frame{animation:portraitFloat 7s ease-in-out infinite}
+.float-card{animation:cardFloat 6s ease-in-out infinite}.card-experience{animation-delay:-2s}.card-focus{animation-delay:-4s}
+@keyframes ringRotate{to{transform:rotate(360deg)}}@keyframes haloPulse{to{opacity:.65;filter:blur(10px);transform:scale(1.06)}}@keyframes portraitFloat{50%{transform:translateY(-8px)}}@keyframes cardFloat{50%{translate:0 -7px}}
+}
